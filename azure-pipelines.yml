@@ -93,5 +93,5 @@
               displayName: 'Azure App Service Deploy: website'
               inputs:
                 azureSubscription: 'Resource Manager - Tailspin - Space Game'
-                appName: 'tailspin-space-game-web-dev-16848.azurewebsites.net'
+                appName: '52.176.61.128'
                 package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
